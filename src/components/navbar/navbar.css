@@ -1,0 +1,64 @@
+header {
+  margin-bottom: 5rem;
+}
+
+nav {
+  width: 100%;
+  position: fixed;
+  background-color: #202020;
+  display: flex;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-items {
+  width: 95%;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  padding: 0.5rem;
+  margin: 0;
+}
+
+.Org {
+  padding: 0rem 1rem;
+  margin: 0;
+}
+
+.Org > h3 {
+  margin: 0;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.menu > span.same {
+  width: 2rem;
+  background-color: white;
+  height: 0.15rem;
+  margin: 0.175rem;
+}
+
+.menu > span.diff {
+  width: 3rem;
+  background-color: white;
+  height: 0.15rem;
+  margin: 0.175rem;
+}
