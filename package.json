@@ -1,0 +1,22 @@
+{
+  "name": "login",
+  "version": "1.0.0",
+  "description": "A simple login component that can be used to validate and log user in",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k-nautresurrect/login.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/k-nautresurrect/login/issues"
+  },
+  "homepage": "https://github.com/k-nautresurrect/login#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
